@@ -1,2 +1,2 @@
 # dockerinstall
-Install docker and docker compose
+Install docker, docker-compose and portanior
