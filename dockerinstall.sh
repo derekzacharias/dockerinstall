@@ -39,26 +39,5 @@ docker-compose --version
 
 echo "Docker and Docker Compose installation completed!"
 
-#Wait 10 seconds
-sleep 10 
 
-#Install Portanior
-echo "Installing Portanior"
 
-docker volume create portainer_data
-
-#download and install the Portainer Server container:
-
-docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
-
-echo "Portanior install complete"
-
-echo "Click here to login" https://docker.test.intra:9443/
-
-#Wait 10 seconds 
-sleep 10 
-
-#Copy OpenCTI bash script from repo
-git clone
-
-#Call another file
