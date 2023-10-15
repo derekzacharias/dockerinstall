@@ -49,17 +49,15 @@ sleep 5
 sudo docker volume create portainer_data
 
 #download and install the Portainer Server container:
-
-echo "https://$(hostname -I | awk '{print $1}'):9443"
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 
 echo "Portanior install complete"
 
-
-echo "To access web console go to the following location:" 
+echo "To access Portanior web console go to the following location:" 
 
 # Link to Address
 
-echo "https://$(ip -4 addr show ens33 | grep -oP '(?<=inet\s)\d+(\.\d+){3}/\d+' | awk -F'/' '{print $1}' | head -n 1)"
+echo "https://$(hostname -I | awk '{print $1}'):9443"
 
 
 
