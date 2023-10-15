@@ -57,8 +57,11 @@ echo "Portanior install complete"
 
 echo "To access web console go to the following location:" 
 
-# Obtain the first available IP address
-ip_address=$(hostname -I | awk '{print $1}')
+# Link to Address
+
+echo "https://$(ip -4 addr show ens33 | grep -oP '(?<=inet\s)\d+(\.\d+){3}/\d+' | awk -F'/' '{print $1}' | head -n 1)"
+
+
 
 
 
