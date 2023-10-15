@@ -64,7 +64,7 @@ ip_address=$(hostname -I | awk '{print $1}')
 url="https://$ip_address"
 
 # Open the URL in Google Chrome
-google-chrome "$url"
+microsoft-edge "$url"
 
 
 
