@@ -13,4 +13,7 @@ sudo docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -
 
 echo "Portanior install complete"
 
-echo "Click here to login" https://0.0.0.0:9443/
+
+echo "To access web console go to the following location:" 
+
+ip a | grep ens
