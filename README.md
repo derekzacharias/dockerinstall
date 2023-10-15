@@ -5,7 +5,7 @@ cd ~
 ```
 
 ```
-wget https://github.com/derekzacharias/dockerinstall.git
+git clone https://github.com/derekzacharias/dockerinstall.git
 ```
 
 # Install docker
