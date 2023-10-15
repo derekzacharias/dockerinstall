@@ -10,9 +10,11 @@ Execute the following commands.
 ```
 cd ~/.ssh
 ```
+
 ```
 ssh-keygen -t rsa
 ```
+
 ```
 cat id_rsa.pub
 ```
@@ -22,27 +24,33 @@ When doing a git clone make sure you use ssh.
 ```
 cd ~
 ```
+
 ```
 git clone git@github.com:derekzacharias/dockerinstall.git
 ```
+
 ```
 # Start and enable Docker
 sudo systemctl start docker
 sudo systemctl enable docker
 ```
+
 ```
 # Allow current user to run Docker commands
 sudo usermod -aG docker $USER
 ```
+
 ```
 cd docker install
 ```
+
 ```
 chmod +x dockerinstall.sh
 ```
+
 ```
 ./dockerinstall.sh
 ```
-```
+
 
 Sit back and enjoy, this will take a few minutes, go and get some coffee.
