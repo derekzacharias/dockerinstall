@@ -20,6 +20,7 @@ chmod +x dockerinstall.sh
 ```
 ./dockerinstall.sh
 ```
-
-
+login with the following username and password
+username: disa
+password: alwaysvigilant
 
