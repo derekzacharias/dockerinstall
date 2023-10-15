@@ -26,7 +26,7 @@ cd ~
 git clone git@github.com:derekzacharias/dockerinstall.git
 ```
 ```
-cd thehivecortexmisp
+cd docker install
 ```
 ```
 chmod +x dockerinstall.sh
