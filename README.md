@@ -23,7 +23,7 @@ When doing a git clone make sure you use ssh.
 cd ~
 ```
 ```
-git clone git@github.com:derekzacharias/thehivecortexmisp.git
+git clone git@github.com:derekzacharias/dockerinstall.git
 ```
 ```
 cd thehivecortexmisp
