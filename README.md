@@ -8,7 +8,6 @@ cd ~
 git clone https://github.com/derekzacharias/dockerinstall.git
 ```
 
-# Install docker
 ```
 cd dockerinstall
 ```
