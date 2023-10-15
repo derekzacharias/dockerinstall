@@ -4,7 +4,8 @@ Install docker, docker-compose, portanior and opencti with one command!
 # docker and portanior install 
 Install docker and portanior install 
 
-Setup access to GitHub private repository. Copy and paste the following commands. From the system, you intend to do a git clone from. 
+#Setup access to GitHub private repository. 
+Copy and paste the following commands. From the system, you intend to do a git clone from. 
 Execute the following commands.
 
 ```
@@ -40,6 +41,7 @@ sudo systemctl enable docker
 sudo usermod -aG docker $USER
 ```
 
+#Install docker
 ```
 cd docker install
 ```
