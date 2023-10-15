@@ -60,11 +60,6 @@ echo "To access web console go to the following location:"
 # Obtain the first available IP address
 ip_address=$(hostname -I | awk '{print $1}')
 
-# Construct the URL
-url="https://$ip_address"
-
-# Open the URL in Google Chrome
-microsoft-edge "$url"
 
 
 
