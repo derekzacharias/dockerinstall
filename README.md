@@ -1,4 +1,4 @@
-# docker and portanior install
+# Docker and Portanior install
 
 Setup access to GitHub private repository. 
 Copy and paste the following commands. From the system, you intend to do a git clone from. 
