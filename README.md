@@ -5,7 +5,7 @@ cd ~
 ```
 
 ```
-git clone git@github.com:derekzacharias/dockerinstall.git
+wget https://github.com/derekzacharias/dockerinstall.git
 ```
 
 Start and enable Docker
