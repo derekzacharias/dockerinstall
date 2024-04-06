@@ -20,4 +20,8 @@ chmod +x dockerinstall.sh
 ./dockerinstall.sh
 ```
 
+or
 
+```
+./dockerportaniorinstall.sh
+```
