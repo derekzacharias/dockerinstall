@@ -23,5 +23,5 @@ chmod +x dockerinstall.sh
 or install Docker and Portanior
 
 ```
-./dockerportaniorinstall.sh
+./dockerportainerinstall.sh
 ```
