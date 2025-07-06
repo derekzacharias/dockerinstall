@@ -1,4 +1,5 @@
 # Docker and Portanior install
+## Deploy thehivecortexmisp first the install the opencti threatinglligence containers
 
 ```
 cd ~
